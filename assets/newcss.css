@@ -110,17 +110,12 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: linear-gradient(180deg, #0b052c, #090f17);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
   margin: 0 0 var(--header-height) 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
+  background-color: var(--body-color);
   color: var(--text-color);
 }
-
 
 h1,
 h2,
